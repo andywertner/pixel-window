@@ -21,7 +21,7 @@ export const POLL_MS = 3000;
 /** Slowest the poll backs off to if the store ever throttles. */
 export const POLL_MAX_MS = 15000;
 /** Seconds a student waits between writes unless the teacher changes it. */
-export const DEFAULT_COOLDOWN = 3;
+export const DEFAULT_COOLDOWN = 5;
 export const COOLDOWN_CHOICES = [1, 2, 3, 5, 10];
 
 export const TEACHER_PASSWORD = "admin";

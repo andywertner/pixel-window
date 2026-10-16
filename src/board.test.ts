@@ -20,7 +20,7 @@ assert.equal(snap.paused, true);
 assert.equal(snap.cooldown, 5);
 assert.equal(snap.keys, 7);
 assert.equal(snapshotFrom([]), null);
-assert.equal(snapshotFrom({})!.cooldown, 3, "default cooldown");
+assert.equal(snapshotFrom({})!.cooldown, 5, "default cooldown");
 assert.equal(snapshotFrom({ "wall-paused": "yes" })!.paused, false, "only a real true pauses");
 assert.equal(snapshotFrom({ "wall-cooldown": 999 })!.cooldown, 60, "cooldown is capped");
 
