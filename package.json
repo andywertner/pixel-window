@@ -1,0 +1,22 @@
+{
+  "name": "pixel-window",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx src/board.test.ts",
+    "fit": "node scripts/fit.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "live": "node scripts/live.mjs",
+    "css-audit": "node scripts/css-audit.mjs"
+  },
+  "devDependencies": {
+    "@puppeteer/browsers": "^2.10.0",
+    "puppeteer-core": "^25.12.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}
